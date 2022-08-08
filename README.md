@@ -1,6 +1,4 @@
-# bootstrap-boilerplate
-## MF Day 3 Daily Challenge
-- index.html contains bootstrap starter template
-## MF Day 3 Take-Home Challenge
-- Practice using readme files
-- Practice using markdown syntax
+# Taryn Borba's Portfolio
+## Social Media Links
+- [LinkedIn](https://www.linkedin.com/in/taryn-borba-894280119/)
+- [GitHub](https://github.com/tborba1)
