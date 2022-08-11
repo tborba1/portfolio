@@ -13,32 +13,27 @@
   <body>
 
 <!-- NAV BAR -->
-    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
-      <div class="container-lg">
+    <nav class="navbar navbar-light sticky-top bg-light shadow-sm">
+      <div class="container-fluid">
         <a class="navbar-brand text-secondary fw-bold fs-4" href="#">Taryn Borba</a>
-        <div class="dropdown">
-            <button class="btn btn-warning text-light px-3 me-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fa-solid fa-bars"></i>
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenu">
-              <li><a class="dropdown-item" href="#home">Home</a></li>
-              <li><a class="dropdown-item" href="#about">About</a></li>
-              <li><a class="dropdown-item" href="#projects">Projects</a></li>
-              <li><a class="dropdown-item" href="#contact">Contact</a></li>
-            </ul>
+        <div>
+          <button type="button" class="btn btn-warning text-success fs-5" id="menuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-ellipsis"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end bg-light text-success fw-bold" aria-labelledby="menuButton">
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
         </div>
       </div>
     </nav>
 
 <!-- HOME -->
-    <section class="home py-5" id="home">
+    <section class="home py-4" id="home">
       <div class="container-lg">
-          <div class="row min-vh-100 align-items-center align-content-center">
-              <div class="col-md-6 mt-5 mt-md-0">
-                  <div class="home-img text-center">
-                      <img class="mw-100" src="./img/IMG_4548.jpg" alt="profile picture">
-                  </div>
-              </div>
+          <div class="row align-items-center align-content-center">
               <div class="col-md-6 order-md-first mt-5 mt-md-0">
                   <div class="home-text">
                       <p class="text-muted mb-1">Hello!</p>
@@ -48,6 +43,11 @@
                       <a href="#projects" class="btn btn-warning px-3 mt-3">My Projects</a>
                   </div>
                 </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                  <div class="home-img text-center">
+                      <img class="profile img-thumbnail img-fluid" src="./img/IMG_4548.jpg" alt="profile picture">
+                  </div>
+              </div>
             </div>
         </div>
     </section>
