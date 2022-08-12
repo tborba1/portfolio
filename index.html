@@ -20,30 +20,31 @@
   </head>
   <body>
     <!-- NAV BAR -->
-    <nav class="navbar navbar-light sticky-top bg-light shadow-sm">
-      <div class="container-fluid">
-        <a class="navbar-brand text-secondary fw-bold fs-4" href="#"
-          >Taryn Borba</a
-        >
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
+      <div class="container-fluid mx-3">
+        <a class="navbar-brand fw-bold fs-4" href="#">Taryn Borba</a>
         <div>
           <button
             type="button"
-            class="btn btn-warning text-success fs-5"
-            id="menuButton"
-            data-bs-toggle="dropdown"
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
             aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <i class="fa-solid fa-ellipsis"></i>
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <ul
-            class="dropdown-menu dropdown-menu-end bg-light text-success fw-bold"
-            aria-labelledby="menuButton"
-          >
-            <li><a class="nav-link" href="#home">Home</a></li>
-            <li><a class="nav-link" href="#about">About</a></li>
-            <li><a class="nav-link" href="#projects">Projects</a></li>
-            <li><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul
+              class="navbar-nav ms-auto align-items-center justify-content-evenly fw-bold"
+            >
+              <li><a class="nav-link" href="#home">Home</a></li>
+              <li><a class="nav-link" href="#about">About</a></li>
+              <li><a class="nav-link" href="#projects">Projects</a></li>
+              <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
