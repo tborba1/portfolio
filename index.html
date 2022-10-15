@@ -24,34 +24,34 @@
   </head>
   <body>
     <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light border-bottom">
+    <nav
+      class="navbar navbar-expand-lg navbar-light sticky-top bg-light border-bottom"
+    >
       <div class="container-fluid mx-3">
         <a class="navbar-brand text-uppercase fw-bold fs-4" href="#"
           >Taryn Borba</a
         >
-        <div>
-          <button
-            type="button"
-            class="navbar-toggler"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul
+            class="navbar-nav ms-auto align-items-end justify-content-evenly text-uppercase fw-bold"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul
-              class="navbar-nav ms-auto align-items-center justify-content-evenly text-uppercase fw-bold"
-            >
-              <li><a class="nav-link" href="#home">Home</a></li>
-              <li><a class="nav-link" href="#about">About</a></li>
-              <li><a class="nav-link" href="#projects">Projects</a></li>
-              <li><a class="nav-link" href="#experience">Experience</a></li>
-              <li><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-          </div>
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#experience">Experience</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -64,11 +64,11 @@
             <div class="home-text">
               <h2 class="fs-4">Taryn Borba</h2>
               <h1 class="text-warning fs-2">Web Developer</h1>
-              <p class="mt-4 text-muted">
+              <p class="mt-4">
                 <strong>Programming Languages:</strong> HTML, CSS, JavaScript,
                 React
               </p>
-              <p class="mt-4 text-muted">
+              <p class="mt-4">
                 <strong>Skills:</strong> Accounting, Accounts Payable, Microsoft
                 Excel
               </p>
@@ -121,23 +121,22 @@
 
     <!-- PROJECTS -->
     <section class="projects py-4 border-bottom" id="projects">
-
-    <div class="container-lg pt-4">
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="section-title text-center">
-            <h2 class="mb-3">Community Projects</h2>
-            <p>
-              The following project(s) were created for my local community.
-            </p>
+      <div class="container-lg pt-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="mb-3">Community Projects</h2>
+              <p>
+                The following project(s) were created for my local community.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div
+        <div
           class="container d-flex flex-wrap justify-content-evenly text-center"
         >
-          <div class="col-md-6 px-2 pb-5  border border-danger">
+          <div class="col-md-6 px-2 pb-5">
             <img
               class="project img-thumbnail img-fluid"
               src="./img/devfest.jpg"
@@ -159,196 +158,197 @@
             >
           </div>
         </div>
-      
-      <hr>
 
-      <div class="container-lg pt-4">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="section-title text-center">
-              <h2 class="mb-3">Class Projects</h2>
-              <p>
-                The following projects were created for
-                <a
-                  class="text-success"
-                  href="https://bitwiseindustries.com/services/workforce-training/classes/"
-                  >Bitwise Industries Workforce Training classes</a
-                >.
-              </p>
+        <hr />
+
+        <div class="container-lg pt-4">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="section-title text-center">
+                <h2 class="mb-3">Class Projects</h2>
+                <p>
+                  The following projects were created for
+                  <a
+                    class="text-success"
+                    href="https://bitwiseindustries.com/services/workforce-training/classes/"
+                    >Bitwise Industries Workforce Training classes</a
+                  >.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div
-          class="container d-flex flex-wrap justify-content-evenly text-center"
-        >
-          <div class="col-md-6 px-2 pb-5">
-            <img
-              class="project img-thumbnail img-fluid"
-              src="./img/react-final.jpg"
-              alt="website snapshot"
-            />
-            <h3>Fake Store API</h3>
-            <p>React/JavaScript, HTML, CSS</p>
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://tborba1.github.io/react-final-project/"
-              ><i class="fa-solid fa-window-maximize"></i> Visit</a
-            >
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://github.com/tborba1/react-final-project"
-              ><i class="fa-brands fa-github"></i> Code</a
-            >
-          </div>
-          <div class="col-md-6 px-2 pb-5">
-            <img
-              class="project img-thumbnail img-fluid"
-              src="./img/react-movie.jpg"
-              alt="website snapshot"
-            />
-            <h3>Movie App</h3>
-            <p>HTML, CSS, React/JavaScript</p>
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://tborba1.github.io/react-june22/"
-              ><i class="fa-solid fa-window-maximize"></i> Visit</a
-            >
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://github.com/tborba1/react-june22/tree/main/react-june22"
-              ><i class="fa-brands fa-github"></i> Code</a
-            >
-          </div>
-          <div class="col-md-6 px-2 pb-5">
-            <img
-              class="project img-thumbnail img-fluid"
-              src="./img/js-magic8ball.jpg"
-              alt="website snapshot"
-            />
-            <h3>Magic 8 Ball</h3>
-            <p>HTML, JavaScript, CSS</p>
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://tborba1.github.io/javascript-magic8ball/"
-              ><i class="fa-solid fa-window-maximize"></i> Visit</a
-            >
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://github.com/tborba1/javascript-magic8ball"
-              ><i class="fa-brands fa-github"></i> Code</a
-            >
-          </div>
-          <div class="col-md-6 px-2 pb-5">
-            <img
-              class="project img-thumbnail img-fluid"
-              src="./img/js-magic8kids.jpg"
-              alt="website snapshot"
-            />
-            <h3>Magic 8 Ball - Kids Edition</h3>
-            <p>JavaScript, HTML, CSS</p>
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://tborba1.github.io/javascript-magickids/"
-              ><i class="fa-solid fa-window-maximize"></i> Visit</a
-            >
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://github.com/tborba1/javascript-magickids"
-              ><i class="fa-brands fa-github"></i> Code</a
-            >
-          </div>
-          <div class="col-md-6 px-2 pb-5">
-            <img
-              class="project img-thumbnail img-fluid"
-              src="./img/mfw-final.jpg"
-              alt="website snapshot"
-            />
-            <h3>Eco Store (revised)</h3>
-            <p>HTML, CSS, Bootstrap, Media Queries</p>
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://tborba1.github.io/"
-              ><i class="fa-solid fa-window-maximize"></i> Visit</a
-            >
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://github.com/tborba1/tborba1.github.io"
-              ><i class="fa-brands fa-github"></i> Code</a
-            >
-          </div>
-          <div class="col-md-6 px-2 pb-5">
-            <img
-              class="project img-thumbnail img-fluid"
-              src="./img/mfw-parallax.jpg"
-              alt="website snapshot"
-            />
-            <h3>Parallax</h3>
-            <p>HTML, CSS, Bootstrap, Media Queries</p>
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://tborba1.github.io/parallax-practice/"
-              ><i class="fa-solid fa-window-maximize"></i> Visit</a
-            >
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://github.com/tborba1/parallax-practice"
-              ><i class="fa-brands fa-github"></i> Code</a
-            >
-          </div>
-          <div class="col-md-6 px-2 pb-5">
-            <img
-              class="project img-thumbnail img-fluid"
-              src="./img/mfw-event.jpg"
-              alt="website snapshot"
-            />
-            <h3>Event Landing Page</h3>
-            <p>HTML, CSS</p>
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://tborba1.github.io/event-landing-page/"
-              ><i class="fa-solid fa-window-maximize"></i> Visit</a
-            >
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://github.com/tborba1/event-landing-page"
-              ><i class="fa-brands fa-github"></i> Code</a
-            >
-          </div>
-          <div class="col-md-6 px-2 pb-5">
-            <img
-              class="project img-thumbnail img-fluid"
-              src="./img/wfb-final.jpg"
-              alt="website snapshot"
-            />
-            <h3>Eco Store</h3>
-            <p>HTML, CSS</p>
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://tborba1.github.io/final-project/"
-              ><i class="fa-solid fa-window-maximize"></i> Visit</a
-            >
-            <a
-              class="btn btn-outline-success"
-              role="button"
-              href="https://github.com/tborba1/final-project"
-              ><i class="fa-brands fa-github"></i> Code</a
-            >
+          <div
+            class="container d-flex flex-wrap justify-content-evenly text-center"
+          >
+            <div class="col-md-6 px-2 pb-5">
+              <img
+                class="project img-thumbnail img-fluid"
+                src="./img/react-final.jpg"
+                alt="website snapshot"
+              />
+              <h3>Fake Store API</h3>
+              <p>React/JavaScript, HTML, CSS</p>
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://tborba1.github.io/react-final-project/"
+                ><i class="fa-solid fa-window-maximize"></i> Visit</a
+              >
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://github.com/tborba1/react-final-project"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+            <div class="col-md-6 px-2 pb-5">
+              <img
+                class="project img-thumbnail img-fluid"
+                src="./img/react-movie.jpg"
+                alt="website snapshot"
+              />
+              <h3>Movie App</h3>
+              <p>HTML, CSS, React/JavaScript</p>
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://tborba1.github.io/react-june22/"
+                ><i class="fa-solid fa-window-maximize"></i> Visit</a
+              >
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://github.com/tborba1/react-june22/tree/main/react-june22"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+            <div class="col-md-6 px-2 pb-5">
+              <img
+                class="project img-thumbnail img-fluid"
+                src="./img/js-magic8ball.jpg"
+                alt="website snapshot"
+              />
+              <h3>Magic 8 Ball</h3>
+              <p>HTML, JavaScript, CSS</p>
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://tborba1.github.io/javascript-magic8ball/"
+                ><i class="fa-solid fa-window-maximize"></i> Visit</a
+              >
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://github.com/tborba1/javascript-magic8ball"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+            <div class="col-md-6 px-2 pb-5">
+              <img
+                class="project img-thumbnail img-fluid"
+                src="./img/js-magic8kids.jpg"
+                alt="website snapshot"
+              />
+              <h3>Magic 8 Ball - Kids Edition</h3>
+              <p>JavaScript, HTML, CSS</p>
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://tborba1.github.io/javascript-magickids/"
+                ><i class="fa-solid fa-window-maximize"></i> Visit</a
+              >
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://github.com/tborba1/javascript-magickids"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+            <div class="col-md-6 px-2 pb-5">
+              <img
+                class="project img-thumbnail img-fluid"
+                src="./img/mfw-final.jpg"
+                alt="website snapshot"
+              />
+              <h3>Eco Store (revised)</h3>
+              <p>HTML, CSS, Bootstrap, Media Queries</p>
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://tborba1.github.io/"
+                ><i class="fa-solid fa-window-maximize"></i> Visit</a
+              >
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://github.com/tborba1/tborba1.github.io"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+            <div class="col-md-6 px-2 pb-5">
+              <img
+                class="project img-thumbnail img-fluid"
+                src="./img/mfw-parallax.jpg"
+                alt="website snapshot"
+              />
+              <h3>Parallax</h3>
+              <p>HTML, CSS, Bootstrap, Media Queries</p>
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://tborba1.github.io/parallax-practice/"
+                ><i class="fa-solid fa-window-maximize"></i> Visit</a
+              >
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://github.com/tborba1/parallax-practice"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+            <div class="col-md-6 px-2 pb-5">
+              <img
+                class="project img-thumbnail img-fluid"
+                src="./img/mfw-event.jpg"
+                alt="website snapshot"
+              />
+              <h3>Event Landing Page</h3>
+              <p>HTML, CSS</p>
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://tborba1.github.io/event-landing-page/"
+                ><i class="fa-solid fa-window-maximize"></i> Visit</a
+              >
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://github.com/tborba1/event-landing-page"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+            <div class="col-md-6 px-2 pb-5">
+              <img
+                class="project img-thumbnail img-fluid"
+                src="./img/wfb-final.jpg"
+                alt="website snapshot"
+              />
+              <h3>Eco Store</h3>
+              <p>HTML, CSS</p>
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://tborba1.github.io/final-project/"
+                ><i class="fa-solid fa-window-maximize"></i> Visit</a
+              >
+              <a
+                class="btn btn-outline-success"
+                role="button"
+                href="https://github.com/tborba1/final-project"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -368,13 +368,15 @@
           class="container d-flex flex-wrap justify-content-evenly text-center"
         >
           <div class="col-sm-4 p-2">
-            <i class="fa-solid fa-chevron-left text-success fs-2"></i><i class="fa-solid fa-chevron-right text-success fs-2"></i>
+            <i class="fa-solid fa-chevron-left text-success fs-2"></i
+            ><i class="fa-solid fa-chevron-right text-success fs-2"></i>
             <h4>WTM Modesto</h4>
             <p>Member</p>
             <p>Oct 2022 - Current</p>
-          </div>          
+          </div>
           <div class="col-sm-4 p-2">
-            <i class="fa-solid fa-chevron-left text-success fs-2"></i><i class="fa-solid fa-chevron-right text-success fs-2"></i>
+            <i class="fa-solid fa-chevron-left text-success fs-2"></i
+            ><i class="fa-solid fa-chevron-right text-success fs-2"></i>
             <h4>GDG Modesto</h4>
             <p>Member</p>
             <p>May 2022 - Current</p>
@@ -387,7 +389,7 @@
           </div>
         </div>
 
-        <hr>
+        <hr />
 
         <div
           class="container d-flex flex-wrap justify-content-evenly text-center"
@@ -450,9 +452,9 @@
     <!-- FOOTER -->
     <footer>
       <div class="container-fluid-lg py-4 bg-light text-secondary">
-        <div class="row container-fluid">
+        <div class="container-fluid">
           <div class="col-lg-12">
-            <p class="m-0 text-center text-secondary fs-6 me-3 fw-bold">
+            <p class="m-0 text-center text-secondary fs-5 fw-bold">
               &copy; 2022 Taryn Borba
             </p>
           </div>
